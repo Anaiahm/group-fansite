@@ -67,30 +67,6 @@ button:hover {
     color: white;
 }
 
-/* Navigation Styling */
-nav {
-    margin: 40px 0 20px;
-}
-
-nav a {
-    color: #D84315;
-    text-decoration: none;
-    font-weight: bold;
-    margin: 0 10px;
-    font-size: 1.1em;
-}
-
-nav a:hover {
-    color: #F06292;
-}
-
-footer {
-    margin-top: 30px;
-    font-size: 0.9em;
-    color: #4E342E;
-    padding-bottom: 30px;
-}
-
 /* Bubble Animation */
 .bubble {
     position: fixed;
