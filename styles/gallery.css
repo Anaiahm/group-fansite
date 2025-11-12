@@ -1,0 +1,41 @@
+.images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+img {
+    width: 90%;
+    height: 400px;
+    object-fit: fill;
+    border-radius: 15px;
+}
+/* sounds playes when img is hovered */
+.images img:hover {
+    transform: scale(1.05);
+    transition: transform 0.9s;
+    cursor: pointer;
+}
+
+span {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: azure;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+h1 {
+    color: lightseagreen;
+}
+
+nav a {
+    color: rgb(58, 170, 222);
+}
