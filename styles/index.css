@@ -1,0 +1,10 @@
+
+.center-image {
+    display: block;
+    margin: 30px auto 50px auto;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
