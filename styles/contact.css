@@ -1,6 +1,5 @@
 /* Contact Page Stylesheet */
 
-
 /* Flex container for side-by-side layout */
 .flex-container {
     display: flex;
@@ -12,7 +11,6 @@
     max-width: 1000px;
 }
 
-/* Shared section box styling */
 .section {
     background: rgba(255, 255, 255, 0.85);
     border-radius: 25px;
