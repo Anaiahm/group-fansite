@@ -1,5 +1,10 @@
 /* Contact Page Stylesheet */
 
+h1 {
+    color: #F06292; /* Pink color overrides orange */
+    text-shadow: 2px 2px 10px #fff;
+}
+
 /* Flex container for side-by-side layout */
 .flex-container {
     display: flex;
