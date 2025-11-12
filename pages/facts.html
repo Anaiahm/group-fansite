@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/styles.css">
   <link rel="stylesheet" href="../styles/facts.css">
   <title>SpongeBob Facts</title>
 </head>
@@ -11,15 +12,16 @@
   <header>
     <nav>
       <ul id="nav">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="./gallery.html">Gallery</a></li>
-        <li><a href="./facts.html">Facts</a></li>
-        <li><a href="./contact.html">Contact</a></li>
+        <a href="../index.html">Home</a>
+        <a href="./gallery.html">Gallery</a>
+        <a href="./facts.html">Facts</a>
+        <a href="./contact.html">Contact</a>
       </ul>
     </nav>
     <h1>SpongeBob Facts</h1>
   </header>
   <main>
+    <section>
     <h2>Main Timeline</h2>
     <ul class="no-bullets">
       <li><img class="icon" src="../assets/window.png" alt="SpongeBob Window"> SpongeBob SquarePants premieres on Nickelodeon.</li>
@@ -27,6 +29,19 @@
       <li><img class="icon" src="../assets/window.png" alt="SpongeBob Window">2015: "The SpongeBob Movie: Sponge Out of Water" is released.</li>
       <li><img class="icon" src="../assets/window.png" alt="SpongeBob Window">2020: "The SpongeBob Movie: Sponge on the Run" is released.</li>
     </ul>
+    </section>
+    <section>
+    <h2>Lore</h2>
+    <ul class="no-bullets">
+      <li>The Krusty Krab is inspired by a lobster trap.</li>
+      <li>Bikini Bottom is located beneath the real Bikini Atoll, a site of nuclear testing.</li>
+      <li>Sandy Cheeks is a squirrel from Texas who lives underwater in a dome.</li>
+      <li>Squidward Tentacles is actually an octopus, not a squid.</li>
+      <li>Plankton is the main antagonist who constantly tries to steal the Krabby Patty secret formula.</li>
+      <li>The show's creator, Stephen Hillenburg, was a marine biologist.</li>
+    </ul>
+    </section>
+    <section>
     <h2>Random Facts</h2>
     <ul class="no-bullets">
       <li >SpongeBob SquarePants first aired on May 1, 1999.</li>
@@ -39,6 +54,7 @@
       <li>SpongeBob is known for his optimistic and cheerful personality.</li>
       <li>The series has spawned movies, merchandise, and even a Broadway musical.</li>
       </ul>
+    </section>
     <!-- <section id="main-characters">
       <h2>Main Characters</h2>
       <section>
@@ -63,5 +79,16 @@
     </section> -->
   </main>
   <footer>© 2025 SpongeBob Fansite | Powered by Ada C24 Goofy Goobers ⚡🐙</footer>
+  <script>
+        for (let i = 0; i < 15; i++) {
+        let bubble = document.createElement('div');
+        bubble.classList.add('bubble');
+        bubble.style.left = Math.random() * window.innerWidth + 'px';
+        bubble.style.width = bubble.style.height = 10 + Math.random() * 20 + 'px';
+        bubble.style.animationDuration = 5 + Math.random() * 5 + 's';
+        document.body.appendChild(bubble);
+    }
+    </script>
 </body>
+
 </html>
